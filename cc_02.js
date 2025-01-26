@@ -21,3 +21,12 @@ let employee = {
 employee.department = "Operations";
 employee.position = "Manger";
 console.log("Updated Employee Record:", employee);
+
+//Task 4: Customer Database
+let customers = [
+    { name: "Fabi", email: "fabulosa@usf.edu", purchaseAmount: 600 },
+    { name: "Javo", email: "eljavokir@usf.edu", purchaseAmount: 100 },
+    { name: "Juan", email: "juanaldo@usf.edu", purchaseAmount: 200 }
+];
+customers.push({ name: "Henry", email: "henry@usf.edu", purchaseAmount: 300 });
+console.log("Customer List:", customers);
