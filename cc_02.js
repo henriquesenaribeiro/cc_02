@@ -10,3 +10,14 @@ scores[1] = 70;
 let averageScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
 console.log("Updated Scores:", scores);
 console.log("Average Score:", averageScore);
+
+//Task 3: Employee Records
+let employee = {
+    name: "Henrique Ribeiro",
+    age: 21,
+    department: "Vivint Sales",
+    isActive: true
+};
+employee.department = "Operations";
+employee.position = "Manger";
+console.log("Updated Employee Record:", employee);
