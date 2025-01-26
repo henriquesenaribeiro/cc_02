@@ -30,3 +30,15 @@ let customers = [
 ];
 customers.push({ name: "Henry", email: "henry@usf.edu", purchaseAmount: 300 });
 console.log("Customer List:", customers);
+
+//Task 5: Order Processing System
+let order = {
+    orderId: 873,
+    customerName: "Teo",
+    amount: 600,
+    calculateTax: function () {
+        return this.amount * 0.09;
+    }
+};
+console.log("Order Details:", order);
+console.log("Tax Amount:", order.calculateTax());
