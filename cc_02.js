@@ -3,3 +3,10 @@ let products = ["Outdoor 4k Camera", "Smoke Detector", "PeaGlass Break Detector"
 products.push("Panel");
 products.pop();
 console.log("Updated Product List:", products);
+
+//Task 2: Student Scores
+let scores = [85, 88, 90, 95, 99];
+scores[1] = 70;
+let averageScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+console.log("Updated Scores:", scores);
+console.log("Average Score:", averageScore);
